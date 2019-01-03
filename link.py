@@ -37,7 +37,7 @@ class LinkSpider(object):
                 'title': title,
                 'link': 'https:' + link + '#Catalog'  # 处理链接，得到有效的URL
             }
-            # print(info)   用于测试代码，查看输入情况
+            # print(info)   用于测试代码，查看输出情况
             yield info['link']
 
 
